@@ -1,0 +1,46 @@
+body{
+    background-color: #621402;
+    font-family: "Roboto"
+}
+header{
+    display: flex; /*выравнивается в одну строчку с навигациейен*/
+    align-items: center; /*    выравнивает все элементы по вертикали в центр*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin: 0; /* убираем отсупы тк в хэдер есть пэдинг*/
+/*    располагает объекты горизонтально*/
+    margin-left: 17px; /*добавляем слева отступ дефолтные 40+ 17*/
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+/*    убирает подчеркивание ссылок*/
+}
+
+.menu-item{
+    margin-right: 25px;
+    color: black;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.avatar{
+    margin-left: 11px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+.user{
+    margin-left: auto;
+    display: flex;
+    align-items: center; /*   текст относительно аватарки выравнивается по вертикали в центр*/
+    color: white;
+}
